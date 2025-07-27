@@ -7,6 +7,7 @@
 body{
     height: 100vh;
    background-color:  rgba(0, 149, 255, 0.679);
+  
 }
 .menu{
     position: sticky;
@@ -58,6 +59,7 @@ body{
 }
 .sobre{
     margin: 50px;
+    
 }
 .sobre h2{
     text-align: center;
@@ -75,17 +77,55 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px
-   ;
+    gap: 40px;
+     border: 2px solid;
+     padding: 40px;
+     border-radius: 20px;
+     background-color: #00aeff;
 }
 .sobre-texto p {
-    width: 25rem;
+    width: 35rem;
     font-size: 30px;
     font-weight: bolder;
     color: #252525;
 }
+
+.caixa-estudo .texto-tec{
+    background-color: #00aeff;
+    padding: 30px;
+    border: 2px solid ;
+    border-radius: 20px;
+    text-align: center;
+}
+.caixa-estudo .texto-tec h3{
+    font-size: 3rem;
+    font-weight: bolder;
+     color: #252525;
+     margin-top: 40px;
+     margin-bottom: 40px;
+}
+.caixa-estudo .texto-tec p{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #252525;
+    width: 80rem;
+    
+}
 .caixa-estudo .img-tec{
-    width: 15rem;
+    margin-left: 2rem;
+}
+.caixa-estudo .img-tec-j{
+    position: relative;
+    left: 30px;
+}
+.caixa-estudo .img-tec-h{
+    position: relative;
+    right: 15px;
+}
+.caixa-estudo .img-tec-r{
+    position: relative;
+    left: 16px;
+    top: 16px;
 }
 .contato{
     background-color: #00aeff;
@@ -115,4 +155,13 @@ body{
 }
 .contato p{
     font-size: 1.5rem;
+}
+footer{
+    border: 2px solid;
+}
+.texto-tec .coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
