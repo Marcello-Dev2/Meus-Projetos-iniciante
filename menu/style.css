@@ -40,10 +40,13 @@ body{
     border: 1px solid white;
     border-radius: 10px;
     padding: 3px 10px;
+    width: 150px;
+    text-align: center;
 }
 .nav-bar ul li:hover{
     transition: 0.3s;
     opacity: .5;
+   
 }
 .nav-bar ul li a{
     text-decoration: none;
@@ -63,7 +66,7 @@ body{
     font-weight: bolder;
     margin: 40px ;
 }
-.sobre img{
+.sobre .img-foto{
     width: 25rem;
     border-radius: 80px;
     border: 2px solid white;
@@ -80,6 +83,9 @@ body{
     font-size: 30px;
     font-weight: bolder;
     color: #252525;
+}
+.caixa-estudo .img-tec{
+    width: 15rem;
 }
 .contato{
     background-color: #00aeff;
