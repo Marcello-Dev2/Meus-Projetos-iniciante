@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     height: 210vh;
    background-color:  rgba(0, 149, 255, 0.679);
@@ -58,18 +61,18 @@ body{
 .nav-bar span{
     color: #00aeff;
 }
-.sobre{
+#sobre{
     margin: 50px;
     
 }
-.sobre h2{
+#sobre h2{
     text-align: center;
     color: white;
     font-size: 3rem;
     font-weight: bolder;
     margin: 40px ;
 }
-.sobre .img-foto{
+#sobre .img-foto{
     width: 25rem;
     border-radius: 80px;
     border: 2px solid white;
@@ -91,44 +94,50 @@ body{
     color: #252525;
 }
 
-.caixa-estudo .texto-tec{
+#caixa-estudo .texto-tec{
     background-color: #00aeff;
     padding: 30px;
     border: 2px solid ;
     border-radius: 20px;
     text-align: center;
 }
-.caixa-estudo .texto-tec h3{
+#caixa-estudo h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0;
+}
+#caixa-estudo .texto-tec h3{
     font-size: 3rem;
     font-weight: bolder;
      color: #252525;
      margin-top: 40px;
      margin-bottom: 40px;
 }
-.caixa-estudo .texto-tec p{
+#caixa-estudo .texto-tec p{
     font-size: 1.6rem;
     font-weight: bolder;
     color: #252525;
     width: 80rem;
     
 }
-.caixa-estudo .img-tec{
+#caixa-estudo .img-tec{
     margin-left: 2rem;
 }
-.caixa-estudo .img-tec-j{
+#caixa-estudo .img-tec-j{
     position: relative;
     left: 30px;
 }
-.caixa-estudo .img-tec-h{
+#caixa-estudo .img-tec-h{
     position: relative;
     right: 15px;
 }
-.caixa-estudo .img-tec-r{
+#caixa-estudo .img-tec-r{
     position: relative;
     left: 16px;
     top: 16px;
 }
-.contato{
+#contato{
     background-color: #00aeff;
     display: flex;
     flex-direction: column;
@@ -136,31 +145,31 @@ body{
     justify-content: center;
     color: white;
 }
-.contato h2{
+#contato h2{
     margin-top: 30px;
     font-size: 3rem;
     font-weight: bolder;
 }
-.contato img{
+#contato img{
     width: 3rem;
     
 }
-.contato .button{
+#contato .button{
     margin-top: 30px;
     margin-bottom: 50px;
     display: flex;
     gap: 25px;
  
 }
-.contato button img:hover{
+#contato button img:hover{
     transition: 0.5s;
     width: 65px;
 }
-.contato .button button{
+#contato .button button{
     background-color: transparent;
     border: none;
 }
-.contato p{
+#contato p{
     font-size: 1.5rem;
     padding-bottom: 50px;
 }

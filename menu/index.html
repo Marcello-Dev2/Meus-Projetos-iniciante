@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Menu Responsivo</title>
 </head>
+
 <body>
     <header class="menu">
-       
+
         <nav class="nav-bar">
             <h1>Meu Primeiro Menu <span>Responsivo</span></h1>
             <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Tecnologia</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#caixa-estudo">Tecnologia</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <section class="sobre">
+    <section id="sobre">
         <h2>Sobre Mim</h2>
         <div class="sobre-texto">
-            <img class="img-foto" src="./img/perfil.jpg" >
-            <p>Tenho 18 anos e sou uma pessoa extremamente focada e determinada no que preciso fazer. Estou estudando para me tornar desenvolvedor web, área que escolhi por verdadeira paixão por tecnologia. Gosto de aprender, resolver problemas e transformar ideias em sites e aplicações funcionais. Estou em busca da minha primeira oportunidade profissional como desenvolvedor front-end para colocar em prática tudo o que venho estudando e seguir evoluindo dentro da área.</p>
+            <img class="img-foto" src="./img/perfil.jpg">
+            <p>Tenho 18 anos e sou uma pessoa extremamente focada e determinada no que preciso fazer. Estou estudando
+                para me tornar desenvolvedor web, área que escolhi por verdadeira paixão por tecnologia. Gosto de
+                aprender, resolver problemas e transformar ideias em sites e aplicações funcionais. Estou em busca da
+                minha primeira oportunidade profissional como desenvolvedor front-end para colocar em prática tudo o que
+                venho estudando e seguir evoluindo dentro da área.</p>
         </div>
-        <div class="caixa-estudo">
-            <h2>Tecnologias</h2>
-            <div class="texto-tec">
-                <img class='img-tec-j' src="img/javascript.webp" style="width: 200px;">
-                <img class='img-tec-h' src="./img/HTML5_logo.png"  style="width: 110px;">
-                <img class='img-tec-c' src="./img/CSS3_logo.png"  style="width: 80px;">
-                <img class='img-tec-r' src="./img/react.webp"  style="width: 130px;">
-                <div class="coluna">
+    </section>
+    <section id="caixa-estudo">
+        <h2>Tecnologias</h2>
+        <div class="texto-tec">
+            <img class='img-tec-j' src="img/javascript.webp" style="width: 200px;">
+            <img class='img-tec-h' src="./img/HTML5_logo.png" style="width: 110px;">
+            <img class='img-tec-c' src="./img/CSS3_logo.png" style="width: 80px;">
+            <img class='img-tec-r' src="./img/react.webp" style="width: 130px;">
+            <div class="coluna">
                 <h3>Sobre elas</h3>
                 <p>
-                    Sou um desenvolvedor front-end em formação, apaixonado por tecnologia e pela criação de interfaces modernas e funcionais. Atualmente estudo HTML, CSS, JavaScript e React, buscando evoluir um pouco mais a cada dia. Gosto de aprender na prática, construindo projetos que me desafiem e me façam crescer. Estou sempre em busca de melhorar minhas habilidades e me aproximar do meu objetivo de atuar profissionalmente na área de desenvolvimento web.
+                    Sou um desenvolvedor front-end em formação, apaixonado por tecnologia e pela criação de
+                    interfaces modernas e funcionais. Atualmente estudo HTML, CSS, JavaScript e React, buscando
+                    evoluir um pouco mais a cada dia. Gosto de aprender na prática, construindo projetos que me
+                    desafiem e me façam crescer. Estou sempre em busca de melhorar minhas habilidades e me aproximar
+                    do meu objetivo de atuar profissionalmente na área de desenvolvimento web.
                 </p>
-                </div>
             </div>
         </div>
     </section>
+    </section>
     <footer>
-        <div class="contato">
+        <section id="contato">
             <h2>contato</h2>
             <div class="button">
-                <button><a href="https://wa.me/5599985207010" target="_blank"><img src="./img/WhatsApp.svg.webp"></a></button>
-                <button><a href="https://www.instagram.com/_marcello.300?igsh=YWNzdmRqMm5rMndn&utm_source=qr" target="_blank"><img  src="./img/ig.png"></a></button>
+                <button><a href="https://wa.me/5599985207010" target="_blank"><img
+                            src="./img/WhatsApp.svg.webp"></a></button>
+                <button><a href="https://www.instagram.com/_marcello.300?igsh=YWNzdmRqMm5rMndn&utm_source=qr"
+                        target="_blank"><img src="./img/ig.png"></a></button>
             </div>
-            <p style="font-style: italic;">&copy;        MarceloDev
+            <p style="font-style: italic;">&copy; MarceloDev
             </p>
-        </div>
+        </section>
     </footer>
 </body>
+
 </html>
