@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242424;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color: white;
+    margin: 20px;
+}
+#num{
+    color: white;
+    font-size: 28px;
+    margin-left: 40px;
+    background-color: black;
+}
+.texto{
+    width: 12rem;
+    border: none;
+    height: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+}
+

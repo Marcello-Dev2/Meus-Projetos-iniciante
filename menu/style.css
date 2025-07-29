@@ -135,7 +135,6 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
-   
 }
 .contato h2{
     margin-top: 30px;
@@ -151,6 +150,7 @@ body{
     margin-bottom: 50px;
     display: flex;
     gap: 25px;
+ 
 }
 .contato button img:hover{
     transition: 0.5s;
