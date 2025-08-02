@@ -15,7 +15,7 @@
     text-decoration: none;
     border: none;
     text-transform: capitalize;
-    transition: 0.2 linear;
+    transition: 0.2s linear;
 }
 body{
     background-color: var(--bg);
@@ -51,4 +51,12 @@ section{
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.5rem;
     font-size: 2rem;
+}
+.icon img{
+    margin: 0.8rem;
+    cursor: pointer;
+}
+.icon img:hover{
+    width: 40px;
+    height: 40px;
 }
