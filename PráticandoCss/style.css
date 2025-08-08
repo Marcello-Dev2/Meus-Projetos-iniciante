@@ -117,4 +117,83 @@ body{
     padding: 30px;
     background-color: #101010;
 }
+@media screen and (max-width: 1200px){
+
+    .title{
+    font-size: 2rem;
+    margin-left: 2rem;
+    }
+    .navbar a{
+    font-size: 1.2rem;
+    margin-right: 0.2rem;
+    margin-left: 0.8rem;
+    font-weight: bolder;
+}
+.opt button{
+     height: 30px;
+     width: 60px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.caixa-p img {
+    width: 400px;
+}
+.home p{
+    font-size: 1.2rem;
+    width: 22rem;
+}
+.home h2{
+    font-size: 1.9rem;
+}
+.caixa-p{
+    display: flex;
+    flex-direction: column;
+}
+.caixa-grid h2{
+    font-size: 1.9rem;
+}
+.lado{
+    display: flex;
+    flex-direction: column;
+}
+.img img {
+    width: 500px;
+}
+.texto h3{
+    font-size: 1.5rem;
+     margin-bottom: 20px;
+    margin-top: 15px;
+}
+.texto p{
+    font-size: 1.2rem;
+    width: 22rem;
+   margin: auto;
+   margin-bottom: 30px;
+    }
+    @media screen and (max-width: 750px){
+        .navbar a{
+            font-size: 0.5rem;
+            margin-right: 0.1rem;
+            margin-left: 0.4rem;
+            font-weight: bolder;
+        }
+        .opt button{
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+     .title{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    }
+    .texto p{
+        font-size: 0.8rem;
+    }
+    .home p{
+         font-size: 0.8rem;
+    }
+}
+}
+
     
