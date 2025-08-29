@@ -67,6 +67,7 @@ section{
     font-size: 1.7rem;
     cursor: pointer;
     display: inline-block;
+    margin-top:2rem;
 }
 .btn:hover{
     letter-spacing: 0.150rem;
@@ -93,7 +94,7 @@ section{
 .content p{
     font-size: 2rem;
     color: #fff;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 1.8;
     padding: 1rem 2rem;
 }
@@ -131,4 +132,13 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
     gap: 1.5rem;
+}
+.box{
+    color: #ffffff;
+    & h3{
+        font-size: 2rem;
+    }
+}
+.price{
+    font-size: 2rem;
 }
